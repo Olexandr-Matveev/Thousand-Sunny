@@ -1,0 +1,78 @@
+.logo-block {
+  width: 1410px;
+  height: 482px;
+  display: grid;
+}
+
+.footer-content {
+  width: 1219px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-conteiner {
+  margin-bottom: 59px;
+}
+
+.logo-size {
+  height: 60px;
+  margin-bottom: 29px;
+}
+
+.font,
+.title-list-font {
+  font-family: "Mulish", sans-serif;
+}
+
+.font-p {
+  line-height: 28px;
+}
+
+.font-p2 {
+  font-size: 17px;
+  line-height: 28px;
+}
+
+.title-list-font {
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 60px;
+}
+
+.font {
+  list-style-type: none;
+  padding: 0;
+  font-weight: 300;
+  color: #848484;
+}
+
+.font-p,
+.list-font {
+  font-size: 18px;
+}
+
+.list-font {
+  line-height: 38px;
+}
+
+.footer-end {
+  width: 1219px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rectangle {
+  width: 1219px;
+  height: 0.6px;
+  background-color: #C4C4C4;
+}
+
+.logo-block__logo {
+  margin: 30px;
+  width: 243px;
+  height: 23px;
+  display: flex;
+  justify-content: space-between;
+  justify-self: center;
+}

@@ -1,0 +1,36 @@
+.part3-block {
+width: 1239px;
+}
+
+.block-img {
+  display: flex;
+  gap: 25px;
+}
+
+.picture {
+  position: relative;
+}
+
+.img-text {
+  width: 120px;
+  height: 56px;
+  font-family: "Inter", sans-serif;
+  top: 276px;
+  background-color: white;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.img-title {
+  font-size: 17px;
+  line-height: 25px;
+  font-weight: 600;
+}
+
+.img-country {
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 500;
+}

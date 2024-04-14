@@ -1,0 +1,16 @@
+.part6-block {
+  width: 1125px;
+}
+
+.block-img-content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.img1,
+.img3,
+.img4 {
+  height: 332px;
+  width: 261px;
+}
+

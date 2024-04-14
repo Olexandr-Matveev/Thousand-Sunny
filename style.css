@@ -1,0 +1,85 @@
+@import url(reset.css);
+@import url(header.css);
+@import url(section2.css);
+@import url(section3.css);
+@import url(section4.css);
+@import url(section5.css);
+@import url(section6.css);
+@import url(footer.css);
+
+@font-face {
+  font-family: "Playfair Display", serif;
+  src: url(assets/PlayfairDisplay-VariableFont_wght.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Inter", sans-serif;
+  src: url(assets/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+@font-face {
+  font-family: "Mulish", sans-serif;
+  src: url(assets/Mulish-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: "Mulish", sans-serif;
+  src: url(assets/Mulish-Bold.ttf);
+  font-weight: bold;
+}
+
+.header-block,
+.logo-block {
+  margin-left: 190px;
+}
+
+.part2-block {
+  margin-left: 141px;
+}
+
+.part3-block,
+.part4-block,
+.part6-block {
+  margin-left: 240px;
+}
+
+.section-title {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 50px;
+}
+
+.decoration-position {
+  position: absolute;
+}
+
+.part2-block_decoration {
+  left: 680px;
+  top: 0;
+  rotate: -7.49deg;
+}
+
+.part2-block_decoration2 {
+  width: 20px;
+  top: 305px;
+  left: 320px;
+}
+
+.part4-block_decoration {
+  left: 45px;
+  top: 85px;
+}
+
+.part4-block_decoration2 {
+  left: 443px;
+  top: 298px;
+  rotate: 20.42deg;
+}
+
+.part4-block_decoration3 {
+  left: 1190px;
+  top: 37px;
+  rotate: 10deg;
+}

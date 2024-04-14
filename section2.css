@@ -1,0 +1,38 @@
+.part2-block {
+  width: 1242px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.part2-block_text {
+  width: 481px;
+  height: 363px;
+  position: relative;
+  display: grid;
+  grid-template-rows: 306px 1fr;
+}
+
+.button-sec2 {
+  width: 164px;
+  height: 48px;
+  font-size: 16px;
+  line-height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FB8F1D;
+  color: #FFFFFF;
+  border-radius: 8px;
+  border: #FB8F1D;
+  align-self: end;
+}
+
+.section2-text {
+  font-family: "Mulish", sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 30px;
+  color: #7D7987;
+}
