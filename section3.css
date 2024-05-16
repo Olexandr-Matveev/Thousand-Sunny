@@ -1,5 +1,9 @@
-.part3-block {
+.section3-block {
 width: 1239px;
+}
+
+.section-title {
+  margin-bottom:56px;
 }
 
 .block-img {
@@ -7,8 +11,8 @@ width: 1239px;
   gap: 25px;
 }
 
-.picture {
-  position: relative;
+.section3-block__picture_radius {
+  border-radius: 8px 8px;
 }
 
 .img-text {

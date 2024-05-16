@@ -1,5 +1,6 @@
 @import url(reset.css);
 @import url(header.css);
+@import url(section.css);
 @import url(section2.css);
 @import url(section3.css);
 @import url(section4.css);
@@ -29,22 +30,58 @@
   font-weight: bold;
 }
 
-.header-block,
-.logo-block {
+.header-block {
+  margin-top: 35px;
+  margin-left: 191px;
+}
+
+.section-block {
+  margin-top: 72px;
+}
+
+.section-block,
+.footer-block {
   margin-left: 190px;
 }
 
-.part2-block {
-  margin-left: 141px;
+.section-block {
+  margin-bottom: 80px;
 }
 
-.part3-block,
-.part4-block,
-.part6-block {
+.section2-block {
+  margin-left: 141px;
+  margin-top: 286px;
+}
+
+.section3-block {
+  margin-top: 292px;
+}
+
+.section4-block {
+  margin-top: 232px;
+}
+
+.section5-block {
+  margin-top: 248px;
+}
+
+.section6-block {
+  margin-top: 270px;
+}
+
+.section3-block,
+.section4-block,
+.section5-block,
+.section6-block {
   margin-left: 240px;
 }
 
-.section-title {
+.footer-block {
+  margin-top: 341px;
+}
+
+.section-title,
+.section5-title {
   font-family: "Playfair Display", serif;
   font-weight: bold;
   font-size: 36px;
@@ -55,31 +92,94 @@
   position: absolute;
 }
 
-.part2-block_decoration {
-  left: 680px;
+.section-block__img-content,
+.section3-block__picture,
+.section4-text,
+.section4-_img,
+.section5-list,
+.section6-img,
+.section6-img2,
+.section6-img3 {
+  position: relative;
+}
+
+.section-decoration {
+  top: 616px;
+  left: -56px;
+}
+
+.section-decoration2 {
+  top: 327px;
+  left: -702px;
+}
+
+.section-decoration3 {
+  top: 53px;
+  left: -131px;
+  ;
+}
+
+.section2-decoration {
   top: 0;
+  left: 680px;
   rotate: -7.49deg;
 }
 
-.part2-block_decoration2 {
+.section2-decoration2 {
   width: 20px;
   top: 305px;
   left: 320px;
 }
 
-.part4-block_decoration {
+.section3-decoration {
+  top: 193px;
+  left: -97px;
+  rotate: -7.49deg;
+}
+
+.section3-decoration2 {
+  bottom: -39px;
+  left: 217px;
+}
+
+.section3-decoration3 {
+  top: -116px;
+  left: 70px;
+}
+
+.section4-decoration {
+  top: -47px;
   left: 45px;
-  top: 85px;
 }
 
-.part4-block_decoration2 {
-  left: 443px;
-  top: 298px;
-  rotate: 20.42deg;
+.section4-decoration2 {
+  bottom: 9px;
+  left: 416px;
+  rotate: 10deg;
 }
 
-.part4-block_decoration3 {
-  left: 1190px;
+.section4-decoration3 {
+  left: 657px;
   top: 37px;
-  rotate: 10deg; /* coment*/
+  rotate: 10deg;
+}
+
+.section5-decoration {
+  top: 104px;
+  left: -122px;
+}
+
+.section6-decoration {
+  top: 262px;
+  left: -77px;
+}
+
+.section6-decoration2 {
+  top: -141px;
+  left: 118px;
+}
+
+.section6-decoration3 {
+  top: 501px;
+  left: 167px;
 }

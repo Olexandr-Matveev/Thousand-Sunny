@@ -1,4 +1,4 @@
-.logo-block {
+.footer-block {
   width: 1410px;
   height: 482px;
   display: grid;
@@ -68,7 +68,7 @@
   background-color: #C4C4C4;
 }
 
-.logo-block__logo {
+.footer-block__logo {
   margin: 30px;
   width: 243px;
   height: 23px;

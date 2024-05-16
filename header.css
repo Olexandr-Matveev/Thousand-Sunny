@@ -1,5 +1,5 @@
 .header-block {
-  height: 786px;
+  height: 60px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -8,6 +8,7 @@
 .nav-list {
   list-style-type: none;
   display: flex;
+  align-items: center;
   gap: 35px;
 }
 
@@ -23,14 +24,18 @@ border:1px solid #FB8F1D;
 color: #FB8F1D;
 }
 
-.button-nav2,
-.button-content {
+.button-nav2 {
 background-color:#FB8F1D;
 border: #FB8F1D;
 color: white;
 }
 
-.top-nav {
+.header-block__logo {
+  width: 41px;
+  height: 41px;
+}
+
+.header-block__top-nav {
   width: 663px;
   display: flex;
   justify-content: space-between;
@@ -38,12 +43,12 @@ color: white;
 }
 
 .list-text,
-.list-title {
+.main-page {
   font-size: 16px;
   line-height: 19px;
 }
 
-.list-title {
+.main-page {
   font-weight: 500;
   color: #202336;
 }
@@ -53,47 +58,10 @@ font-weight: 400;
 color: #B8BECD;
 }
 
-.top-content {
+.header-block__content {
   width: 1220px;
   display: flex;
   justify-content: space-between;
 }
 
-.header-logo {
-  width: 41px;
-  height: 41px;
-}
-
-.bottom-content {
-  width: 1305px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.header-title {
-  font-family: "Playfair Display", serif;
-  font-weight: bold;
-  font-size: 64px;
-  line-height: 80px;
-}
-
-.button-content {
-  width: 180px;
-  height: 52px;
-  border-radius: 8px;
-}
-
-.content-rectangle {
-  width: 32px;
-  height: 2px;
-  background-color: #202336;
-}
-
-.bottom-content-text {
-  height: 334px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
 

@@ -1,5 +1,9 @@
-body {
+
+
+html, body, div, section, header, nav, footer, ul, li,
+ h1, h2, h3, p, span, img, button {
   margin: 0;
+  padding: 0;
 }
 
 ul {

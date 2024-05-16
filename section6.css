@@ -1,8 +1,8 @@
-.part6-block {
+.section6-block {
   width: 1125px;
 }
 
-.block-img-content {
+.block-img {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }

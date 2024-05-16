@@ -1,4 +1,4 @@
-.part4-block {
+.section4-block {
   width: 1206px;
   display: flex;
   gap: 49px;
@@ -6,10 +6,9 @@
   position: relative;
 }
 
-.part4-block_text {
+.section4-text {
   width: 481px;
   height: 333px;
-  position: relative;
   display: grid;
   grid-template-rows: 286px 1fr;
 }

@@ -1,4 +1,4 @@
-.part2-block {
+.section2-block {
   width: 1242px;
   display: flex;
   justify-content: space-between;
@@ -6,7 +6,7 @@
   position: relative;
 }
 
-.part2-block_text {
+.section2-block_text {
   width: 481px;
   height: 363px;
   position: relative;

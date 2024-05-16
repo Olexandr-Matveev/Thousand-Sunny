@@ -7,15 +7,16 @@
   <title>Thousand Sunny</title>
   <link rel="stylesheet" href="style.css">
   <link rel="icon" href="assets/header/logo.png">
+  <script src="app.js"></script>
 </head>
 
 <body class="content">
   <header class="header-block">
-    <div class="top-content">
-      <img class="header-logo" src="assets/header/logo.png" alt="logo">
-      <nav class="top-nav">
+    <div class="header-block__content">
+      <img class="header-block__logo" src="assets/header/logo.png" alt="logo">
+      <nav class="header-block__top-nav">
         <ul class="nav-list">
-          <li class="list-title">Home</li>
+          <li class="main-page">Home</li>
           <li class="list-text">Destinations</li>
           <li class="list-text">About</li>
           <li class="list-text">Partner</li>
@@ -25,29 +26,32 @@
         <button class="button-nav button-nav2">Register</button>
       </nav>
     </div>
+  </header>
 
-    <div class="bottom-content">
+  <section class="section-block">
       <div>
         <h2 class="header-title">Explore and<br> Travel</h2>
+        <div class="section-block__content-text">
+            <h3 class="section-text">Holiday finder</h3>
 
-        <div class="bottom-content-text">
-          <div>
-            <h3>Holiday finder</h3>
-            <div class="content-rectangle"></div>
-          </div>
           <button class="button-content">Explore</button>
         </div>
       </div>
-      <img src="assets/header/world.png" alt="">
-    </div>
-  </header>
 
-  <section class="part2-block">
-    <img class="part2-block_decoration decoration-position" src="assets/section2/element.png" alt="dec1">
+      <div class="section-block__img-content">
+        <img class="section-decoration decoration-position" src="assets/section/circle.png" alt="circle">
+        <img class="section-decoration2 decoration-position" src="assets/section/circle2.png" alt="circle">
+        <img class="section-decoration3 decoration-position" src="assets/section/cross.png" alt="cross">
+        <img src="assets/section/world.png" alt="world">
+      </div>
+  </section>
+
+  <section class="section2-block">
+    <img class="section2-decoration decoration-position" src="assets/section2/element.png" alt="dec1">
     <img src="assets/section2/girl_in_the_air.png" alt="img1">
 
-    <div class="part2-block_text">
-      <img class="part2-block_decoration2 decoration-position" src="assets/section2/element2.png" alt="dec1">
+    <div class="section2-block_text">
+      <img class="section2-decoration2 decoration-position" src="assets/section2/element2.png" alt="dec2">
 
       <div>
         <h2 class="section-title">A new way to explore the<br> world </h2>
@@ -64,14 +68,15 @@
     </div>
   </section>
 
-  <section class="part3-block">
+  <section class="section3-block">
     <div>
       <h2 class="section-title">Featured destinations</h2>
     </div>
 
     <div class="block-img">
-      <div class="picture">
-        <img src="assets/section3/nature_1.png" alt="img">
+      <div class="section3-block__picture">
+        <img class="section3-decoration decoration-position" src="assets/section3/cross.png" alt="cross">
+        <img class="section3-block__picture_radius" src="assets/section3/nature_1.png" alt="img">
 
         <div class="img-text">
           <span class="img-title">Raja Ampat</span>
@@ -79,7 +84,8 @@
         </div>
       </div>
 
-      <div class="picture">
+      <div class="section3-block__picture">
+        <img class="section3-decoration2 decoration-position" src="assets/section3/circle.png" alt="circle1">
         <img src="assets/section3/nature_2.png" alt="img">
 
         <div class="img-text">
@@ -88,7 +94,7 @@
         </div>
       </div>
 
-      <div class="picture">
+      <div class="section3-block__picture">
         <img src="assets/section3/nature_3.png" alt="img">
 
         <div class="img-text">
@@ -97,7 +103,8 @@
         </div>
       </div>
 
-      <div class="picture">
+      <div class="section3-block__picture">
+        <img class="section3-decoration3 decoration-position" src="assets/section3/circle.png" alt="circle2">
         <img src="assets/section3/nature_4.png" alt="img">
 
         <div class="img-text">
@@ -108,14 +115,11 @@
     </div>
   </section>
 
-  <section class="part4-block">
-    <img class="part4-block_decoration decoration-position" src="assets/section4/element3.png" alt="dec1">
-    <img class="part4-block_decoration3 decoration-position" src="assets/section4/element.png" alt="dec1">
-
-    <div class="part4-block_text">
-      <img class="part4-block_decoration2 decoration-position" src="assets/section4/element2.png" alt="dec1">
-
+  <section class="section4-block">
+    <div class="section4-text">
       <div>
+        <img class="section4-decoration decoration-position" src="assets/section4/element3.png" alt="circle">
+        <img class="section4-decoration2 decoration-position" src="assets/section4/element2.png" alt="big cross">
         <h2 class="section-title">Guides by Thousand <br> Sunny</h2>
 
         <p class="section2-text">
@@ -125,20 +129,62 @@
         </p>
       </div>
 
-      <button class="button-sec2">Download</button>
+      <div>
+        <button class="button-sec2">Download</button>
+      </div>
     </div>
 
-    <img src="assets/section4/Thousand-03.png" alt="img">
+    <div class="section4-_img">
+      <img class="section4-decoration3 decoration-position" src="assets/section4/element.png" alt="small cross">
+      <img src="assets/section4/Thousand-03.png" alt="img">
+    </div>
   </section>
 
-  <section></section>
-  <section class="part6-block">
+  <section class="section5-block">
+    <h2 class="section5-title">Testimonials</h2>
+
+    <div class="section5-content">
+      <div>
+        <ul class="section5-list">
+          <img class="section5-decoration decoration-position" src="assets/section5/circle-section5.png" alt="circle">
+          <li>
+            <img src="assets/section5/star.png" alt="star">
+          </li>
+          <li>
+            <img src="assets/section5/star.png" alt="star">
+          </li>
+          <li>
+            <img src="assets/section5/star.png" alt="star">
+          </li>
+          <li>
+            <img src="assets/section5/star.png" alt="star">
+          </li>
+          <li>
+            <img src="assets/section5/star.png" alt="star">
+          </li>
+        </ul>
+        <p class="section5-text">“Quisque in lacus a urna fermentum<br>
+           euismod. Integer mi nibh, dapibus ac<br>
+           scelerisque eu, facilisis quis purus. Morbi<br>
+           blandit sit amet turpis nec”</p>
+        <div>
+          <h3 class="section5-title2">Edward Newgate</h3>
+          <p class="section5-text2">Founder Circle</p>
+        </div>
+      </div>
+
+      <img src="assets/section5/man.png" alt="man">
+    </div>
+  </section>
+
+  <section class="section6-block">
     <div>
       <h2 class="section-title">Trending stories</h2>
     </div>
 
-    <div class="block-img-content">
-      <div>
+    <div class="block-img">
+      <div class="section6-img">
+        <img class="section6-decoration decoration-position" src="assets/section6/circle.png" alt="circle">
         <img class="img1" src="assets/section6/image_12.png" alt="">
 
         <h3>The many benefits of <br> taking a healing holiday</h3>
@@ -150,7 +196,8 @@
         </p>
       </div>
 
-      <div>
+      <div class="section6-img2">
+        <img class="section6-decoration2 decoration-position" src="assets/section6/cross.png" alt="cross">
         <img class="img2" src="assets/section6/image_13.png" alt="">
 
         <h3>The best Kyoto restaurant <br> to try Japanese food</h3>
@@ -162,7 +209,8 @@
         </p>
       </div>
 
-      <div>
+      <div class="section6-img3">
+        <img class="section6-decoration3 decoration-position" src="assets/section/circle.png" alt="circle">
         <img class="img3" src="assets/section6/image_14.png" alt="">
 
         <h3>Skip Chichen Itza and head <br> to this remote Yucatan</h3>
@@ -188,7 +236,7 @@
     </div>
   </section>
 
-  <footer class="logo-block">
+  <footer class="footer-block">
     <div class="footer-content">
       <div>
         <h3 class="logo-size">
@@ -237,7 +285,7 @@
     <div class="footer-end">
       <div class="rectangle"></div>
 
-      <div class="logo-block__logo">
+      <div class="footer-block__logo">
         <img src="assets/footer/Frame_1.png" alt="logo1">
         <img src="assets/footer/Frame_2.png" alt="logo2">
         <img src="assets/footer/Frame_3.png" alt="logo3">
